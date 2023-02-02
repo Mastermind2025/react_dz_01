@@ -2,16 +2,19 @@
     font-weight: bold;
     color: rgb(9, 0, 0);
     margin: 15px;
+    font-size: 28px;
 }
 
 .tag{
     color: rgb(92, 92, 92);
     margin: 5px;
+    font-size: 24px;
 }
 
 .location{
     color: rgb(92, 92, 92);
     margin: 10px 0 ;
+    font-size: 24px;
 }
 
 .avatar{
@@ -19,6 +22,7 @@
     height: 250px;
     /* border: 5px dashed red; */
     border-radius: 50%;
+    background-color: rgb(111, 110, 110);
     
 }
 
@@ -34,7 +38,7 @@ ul.stats{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    border: 1px solid red;
+    border: 6px dashed red;
     justify-content: space-between;
     padding: 26px 27px 24px 20px;
     background-color: rgb(195, 194, 194);

@@ -22,7 +22,7 @@ export const Card = ({username, tag, location, avatar, stats}) => {
 
 </div>
     <ul className={styleProfile.stats}>
-        <li>
+        <li >
             <span className={styleProfile.label}>Followers</span>
             <span className={styleProfile.quantity}>{stats.followers}</span>
         </li>
