@@ -52,7 +52,7 @@ export const App = () => {
 
       <Statistics
         
-        title="Upload statsaa"
+        title="Upload stats_aa"
         stats={data}
 
       />
