@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 // json подключаем в App
 // import dateJson from '../../assets/user.json';
 import styleProfile from './Profile.module.css';
+//картинка
+import img from '../../img/man.png';
+const imgMan = img;
 
 export const Card = ({username, tag, location, avatar, stats}) => {
 
@@ -11,7 +14,7 @@ export const Card = ({username, tag, location, avatar, stats}) => {
         <div className={styleProfile.profile}>
             <div className={styleProfile.description}>
                 
-                <img src={avatar}
+                <img src={ imgMan }
                     alt="User avatar"
                     className={styleProfile.avatar}
     />
